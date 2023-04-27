@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    font-size: 5rem;
+    font-weight:bold;
+    padding: 3rem;
+}
+.newyear{
+    font-family:'pacifico';
+    min-height: 100vh;
+    display: flex;
+    padding:150px 20px ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /*background picture*/
+    background-image: url("./images/ship-gea629e303_1920.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:luminosity;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40%;
+}
+.day,
+.hour,
+.minute,
+.second{
+    font-size: 3rem;
+}
+.waiting{
+    height:50vh;
+}
